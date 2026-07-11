@@ -46,6 +46,7 @@ nav ul a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .hero-container {
@@ -67,4 +68,40 @@ nav ul a {
     margin-top: 16rem;
     padding: 16px 32px;
     font-size: 18px;
+}
+.speakers-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.speaker-section-heading{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+.speaker-section-container{
+    max-width: 1200px;
+}
+.speakers-info-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+}
+.common-speakers-box-style{
+    width:600px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+.common-speakers-box-style img{
+    width: 100%;
+}
+.speaker-details{
+    padding: 20px;
+}
+.speaker-details > *{
+    margin-bottom: 5px;
+}
+.speaker-speciality{
+    color: #2563eb;
+    font-size: 12px;
 }
