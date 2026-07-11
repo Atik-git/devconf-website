@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-
+/* navigation-start */
 nav {
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,9 @@ nav ul a {
     text-decoration: none;
     font-weight: 700;
 }
+/* navigation-end */
 
+/* hero-sectin-start */
 .hero-section {
     height: 90vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),
@@ -69,6 +71,9 @@ nav ul a {
     padding: 16px 32px;
     font-size: 18px;
 }
+/* hero-sectin-end */
+
+/* speakers-section-start */
 .speakers-section{
     display: flex;
     justify-content: center;
@@ -105,3 +110,110 @@ nav ul a {
     color: #2563eb;
     font-size: 12px;
 }
+/* speakers-section-end */
+
+/* pricing-section-start */
+.pricing-section{
+    margin-bottom: 120px;
+}
+.pricing-section-title{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.pricing-section-sub-title{
+    text-align: center;
+    color: #575757;
+}
+.pricing-box-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.common-style-pricing-boxes{
+    width: 370px;
+    border: 1px solid #e5e7eb;
+    padding: 30px;
+    border-radius: 10px;
+}
+.pricing-info{
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 16px;
+}
+.pricing-info >*{
+    margin-bottom: 5px;
+}
+.pricing-box-details{
+    padding: 16px 0 16px 16px;
+}
+.price{
+    font-size: 3rem;
+}
+.pricing-allowed-user{
+    font-size: 14px;
+    color: #888888;
+}
+.pricing-box-details ul li{
+    margin-bottom: 12px;
+    color: #333333;
+    font-size: 14px;
+}
+.pricing-box-details ul li::marker{
+    color: #2563eb;
+}
+.common-style-pricing-button{
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #2563eb;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #2563eb;
+}
+.pro-price{
+    width: 370px;
+    background-color: #0d1b2a ;
+    padding: 30px;
+    border-radius: 10px;
+
+} 
+.pro-price .pricing-info{
+    border-bottom: 1px solid #263240;
+}
+.pro-price .pricing-box-title{
+    color: #2563eb;
+    font-weight: 700;
+}
+.pro-price .price{
+    color: white;
+} 
+.pro-price ul li{
+    color: #e5e7eb;
+}
+
+.pro-price .get-pro-btn{
+    background-color: #2563eb;
+    color: #e5e7eb;
+    font-weight: 700;
+}
+.team-price .contact-us-btn{
+    border: 1px solid #263240;
+    color: #263240;
+}
+/* pricing-section-end */
+
+/* footer-section-start */
+footer{
+    background-color: #0d1b2a;
+    color: #6e767f;
+    padding: 42px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .privacy-terms{
+    display: flex;
+    gap: 30px;
+}
+/* footer-section-end */
