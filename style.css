@@ -33,6 +33,10 @@ nav ul a {
     border-radius: 5px;
     text-decoration: none;
     font-weight: 700;
+    cursor: pointer;
+}
+.arrow-sign{
+    padding-left: 10px;
 }
 /* navigation-end */
 
@@ -202,6 +206,77 @@ nav ul a {
     color: #263240;
 }
 /* pricing-section-end */
+
+/* faq-section-start */
+.faq-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.faq-title, .faq-sub-title{
+    text-align: center;
+}
+.faq-title{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.faq-question-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;
+}
+.common-style-ques-box{
+    width: 500px;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    color: #575757;
+}
+.plus-sign{
+    font-size: 22px;
+    color: #2563eb;
+}
+/* faq-section-end */
+
+/* cta-section-start */
+.cta-container{
+    width: 1020px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-bottom: 120px;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background-color: #062974;
+}
+.common-text-style-cta-section{
+    margin-bottom: 12px;
+    color: white;
+}
+.cta-section-sub-title{
+    font-size: 12px;
+}
+.cta-section-description{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.cta-container .reg-now-btn{
+    background-color: white;
+    color: #2563eb;
+    padding: 18px 36px;
+    font-size: 16px;
+}
+
+
+/* cta-section-end */
 
 /* footer-section-start */
 footer{
